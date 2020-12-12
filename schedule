@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+            body
+            {
+                background-color:white;
+            }
+            
+            h1 
+            {
+                color:black;
+                font-family:"courier";
+                text-decoration: underline;
+                font-size: 50px;
+                height: 30px;
+                
+            }
+
+            li
+            {
+                color: blue;
+                font-size: 22px;
+                font-family:"courier";
+                width: 300px;
+                margin-top: 2px;
+                cursor: wait;
+                text-align: left;
+                
+            }
+            h2
+            {
+                font-family:"courier";
+                font-size:24px;
+            }
+            
+            
+        </style>
+        <script>
+            function a() {window.open("https://www.google.com/")}
+            function b() {window.open("https://www.bing.com/")}
+            function c() {window.open("https://search.yahoo.com/")}
+            function d() {window.open("https://duckduckgo.com/")}
+            function e() {window.open("https://duckduckgo.com/")}
+            function f() {window.open("https://duckduckgo.com/")}
+            function g() {window.open("https://duckduckgo.com/")}
+            function h() {window.open("https://duckduckgo.com/")}
+            function i() {window.open("https://duckduckgo.com/")}
+            function j() {window.open("https://duckduckgo.com/")}
+            function k() {window.open("https://duckduckgo.com/")}
+        </script>
+	</head>
+	<body>
+	    <h1>school stuff</h1>
+	    
+		<ul>
+		    <li onclick="a()">google classroom</li>
+		    
+		    <h2>A1 day</h2>
+		    
+		    <li onclick="b()">math 8:45</li>
+		    <li onclick="c()">bio 10:45</li>
+		    <h2> B1 day</h2>
+		    
+		    <li onclick="d()">latin 8:45</li>
+		    <li onclick="e()">greek 9:45</li>
+		    <li onclick="f()">tok 10:45</li>
+		    <li onclick="g()">math sgi 12:45</li>
+		    <li onclick="h()">english 13:45</li>
+		    <h2>C1 day</h2>
+		    
+		    <li onclick="i()">history 9:45</li>
+		    <li onclick="j()">latin 10:45</li>
+		    <h2>A2 day</h2>
+		    
+		    <li onclick="k()">math 8:45</li>
+		    <li onclick="l()">bio 10:45</li>
+		    <li onclick="m()">history sgi 13:45</li>
+		    
+		    <h2>B2 day</h2>
+		    <li onclick="c()">latin 8:45</li>
+		    <li onclick="c()">greek 9:45</li>
+		    <li onclick="c()">bio sgi 12:45</li>
+		    <li onclick="c()">english 13:45</li>
+		    
+		    <h2>C2 day</h2>
+		    <li onclick="c()">history 9:45</li>
+		    <li onclick="c()">english sgi 11:15</li>
+		    
+		    
+		</ul>
+	</body>
+</html>
